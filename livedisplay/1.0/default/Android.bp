@@ -39,6 +39,17 @@ cc_binary {
     name: "vendor.candy.livedisplay@1.0-service-sdm",
     init_rc: ["vendor.candy.livedisplay@1.0-service-sdm.rc"],
     defaults: ["livedisplay_defaults"],
+    cflags: ["-DCOLOR_BACKEND_LEGACYMM"],
+    srcs: [
+        "impl/LegacyMM.cpp",
+        "controller/LegacyMMController.cpp",
+    ],
+}
+
+cc_binary {
+    name: "vendor.candy.livedisplay@1.0-service-sdm",
+    init_rc: ["vendor.candy.livedisplay@1.0-service-sdm.rc"],
+    defaults: ["livedisplay_defaults"],
     cflags: ["-DCOLOR_BACKEND_SDM"],
     srcs: [
         "impl/SDM.cpp",
