@@ -21,7 +21,7 @@
 #include <utils/Mutex.h>
 #include <vendor/candy/livedisplay/1.0/IColor.h>
 
-#include "ColorBackend.h"
+#include <memory>
 
 namespace vendor {
 namespace candy {
@@ -36,6 +36,8 @@ using ::android::hardware::hidl_vec;
 using ::android::sp;
 
 using ::vendor::candy::livedisplay::V1_0::IColor;
+
+class ColorBackend;
 
 class Color : public IColor {
   public:

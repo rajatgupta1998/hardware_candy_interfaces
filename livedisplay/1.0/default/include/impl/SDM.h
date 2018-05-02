@@ -19,7 +19,6 @@
 #define VENDOR_CANDY_LIVEDISPLAY_V1_0_SDM_H
 
 #include "ColorBackend.h"
-#include "controller/SDMController.h"
 
 #include <vector>
 

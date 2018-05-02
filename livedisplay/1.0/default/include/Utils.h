@@ -18,7 +18,6 @@
 #ifndef VENDOR_CANDY_LIVEDISPLAY_V1_0_UTILS_H
 #define VENDOR_CANDY_LIVEDISPLAY_V1_0_UTILS_H
 
-#include <stdlib.h>
 #include <utils/Errors.h>
 
 using ::android::status_t;

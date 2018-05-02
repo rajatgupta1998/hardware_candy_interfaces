@@ -17,9 +17,9 @@
 #ifndef VENDOR_CANDY_LIVEDISPLAY_V1_0_COLORBACKEND_H
 #define VENDOR_CANDY_LIVEDISPLAY_V1_0_COLORBACKEND_H
 
-#include <vector>
-
 #include "Types.h"
+
+#include <vector>
 
 namespace vendor {
 namespace candy {
