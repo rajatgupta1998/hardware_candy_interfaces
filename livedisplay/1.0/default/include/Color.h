@@ -29,11 +29,9 @@ namespace livedisplay {
 namespace V1_0 {
 namespace implementation {
 
-using ::android::Mutex;
 using ::android::hardware::Return;
 using ::android::hardware::Void;
 using ::android::hardware::hidl_vec;
-using ::android::sp;
 
 using ::vendor::candy::livedisplay::V1_0::IColor;
 
@@ -41,7 +39,7 @@ class ColorBackend;
 
 class Color : public IColor {
   public:
-    static sp<Color> getInstance();
+    static android::sp<Color> getInstance();
 
     Return<Features> getSupportedFeatures() override;
 
@@ -77,7 +75,7 @@ class Color : public IColor {
     void reset();
 
     Color();
-    static sp<Color> sInstance;
+    static android::sp<Color> sInstance;
 
     uint32_t mFeatures;
     bool mConnected;
@@ -92,7 +90,7 @@ class Color : public IColor {
     };
 
     std::unique_ptr<ColorBackend> mBackend;
-    Mutex mLock;
+    android::Mutex mLock;
 };
 
 }  // namespace implementation
