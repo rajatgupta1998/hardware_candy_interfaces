@@ -1,3 +1,4 @@
-subdirs = [
-    "*"
-]
+hidl_package_root {
+    name: "vendor.candy",
+    path: "hardware/candy/interfaces",
+}
