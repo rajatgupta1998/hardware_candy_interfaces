@@ -55,7 +55,7 @@ enum {
 
 struct hsic_config {
     uint32_t flags;
-    vendor::lineage::livedisplay::V1_0::HSIC data;
+    vendor::candy::livedisplay::V1_0::HSIC data;
 };
 
 struct hsic_float_range {

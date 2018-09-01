@@ -51,7 +51,7 @@ struct mm_range {
 }  // anonymous namespace
 
 namespace vendor {
-namespace lineage {
+namespace candy {
 namespace livedisplay {
 namespace V1_0 {
 namespace implementation {
@@ -344,5 +344,5 @@ sp<disp_mode> LegacyMM::getDisplayModeById(int32_t id) {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace livedisplay
-}  // namespace lineage
+}  // namespace candy
 }  // namespace vendor

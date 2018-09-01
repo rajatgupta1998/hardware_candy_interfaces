@@ -14,14 +14,14 @@
 ** limitations under the License.
 */
 
-#ifndef VENDOR_LINEAGE_LIVEDISPLAY_V1_0_LEGACYMM_H
-#define VENDOR_LINEAGE_LIVEDISPLAY_V1_0_LEGACYMM_H
+#ifndef VENDOR_CANDY_LIVEDISPLAY_V1_0_LEGACYMM_H
+#define VENDOR_CANDY_LIVEDISPLAY_V1_0_LEGACYMM_H
 
 #include "ColorBackend.h"
 #include "controller/LegacyMMController.h"
 
 namespace vendor {
-namespace lineage {
+namespace candy {
 namespace livedisplay {
 namespace V1_0 {
 namespace implementation {
@@ -72,7 +72,7 @@ class LegacyMM : public ColorBackend {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace livedisplay
-}  // namespace lineage
+}  // namespace candy
 }  // namespace vendor
 
-#endif  // VENDOR_LINEAGE_LIVEDISPLAY_V1_0_LEGACYMM_H
+#endif  // VENDOR_CANDY_LIVEDISPLAY_V1_0_LEGACYMM_H

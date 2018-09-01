@@ -68,7 +68,7 @@ Function loadFunction(std::shared_ptr<void> handle, const char* name) {
 }  // anonymous namespace
 
 namespace vendor {
-namespace lineage {
+namespace candy {
 namespace livedisplay {
 namespace V1_0 {
 namespace implementation {
@@ -165,5 +165,5 @@ int32_t LegacyMMController::supported(int32_t disp_id, uint32_t feature_id) {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace livedisplay
-}  // namespace lineage
+}  // namespace candy
 }  // namespace vendor
