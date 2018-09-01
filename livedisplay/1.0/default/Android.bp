@@ -36,8 +36,8 @@ cc_defaults {
 }
 
 cc_binary {
-    name: "vendor.candy.livedisplay@1.0-service-sdm",
-    init_rc: ["vendor.candy.livedisplay@1.0-service-sdm.rc"],
+    name: "vendor.candy.livedisplay@1.0-service-legacymm",
+    init_rc: ["vendor.candy.livedisplay@1.0-service-legacymm.rc"],
     defaults: ["livedisplay_defaults"],
     cflags: ["-DCOLOR_BACKEND_LEGACYMM"],
     srcs: [
