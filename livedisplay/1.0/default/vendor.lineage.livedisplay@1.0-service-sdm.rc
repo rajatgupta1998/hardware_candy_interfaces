@@ -1,4 +1,0 @@
-service livedisplay-hal-1-0 /vendor/bin/hw/vendor.candy.livedisplay@1.0-service-sdm
-    class hal
-    user system
-    group system
